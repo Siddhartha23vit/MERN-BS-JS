@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js task 1</title>
+</head>
+<body>
+    <!--21BCE7782 SUKHAVASI SIDDHARTHA-->
+    <script>function reverseNumber(x) {
+        
+        const numString = x.toString();
+      
+        
+        const reversedString = numString.split('').reverse().join('');
+      
+    
+        const reversedNumber = parseInt(reversedString, 10);
+      
+        return reversedNumber;
+      }
+ 
+      const x = 217782;
+      document.writeln("Given num:" + x +"")
+      const reversed = reverseNumber(x);
+      console.log(reversed);
+      document.writeln("The reversed num :" + reversed)</script>
+</body>
+</html>

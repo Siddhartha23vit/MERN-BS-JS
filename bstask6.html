@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>bs task 6</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<!--21bce7782 Sukhavasi Siddhartha-->
+<div class="container mt-3">
+  
+  <form class="was-validated">
+    <div class="mb-3 mt-3">
+      <label for="uname" class="form-label">Username:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="mb-3">
+        <label for="pwd" class="form-label">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+      </div>
+      <div class="form-group mb-3">
+        <label class="form-label form-label" for="form-select">Hobbies</label
+        ><select class="form-select chosen" required>
+          <option value selected disabled></option>
+          <option value="OutdoorGames">Outdoor Games</option>
+          <option value="learning">Learning</option>
+          <option value="drawing">Drawing</option>
+          <option value="dance">Dance</option>
+          <option value="acting">Acting</option>
+          <option value="photgraphy">Photography</option>
+          <option value="cooking">Cooking</option>
+        </select>
+      </div>
+  <button class="btn btn-primary w-100"
+  type="submit"
+  style="background: #e23247; border: none">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>

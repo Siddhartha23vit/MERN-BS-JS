@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jstask-2</title>
+</head>
+<body>
+    <!--21BCE7782 SUKHAVASI SIDDHARTHA-->
+    <Script>
+        function alphabet_order(str) {
+  const lettersOnly = str.replace(/[^a-zA-Z]/g, '');
+  const sorted = lettersOnly.split('').sort().join('');
+  return sorted;
+}
+const str = 'webmaster';
+const result = alphabet_order(str);
+console.log(result); 
+document.writeln("The reversed string in alphabetical order for webmaster is:" +result)
+
+    </Script>
+</body>
+</html>

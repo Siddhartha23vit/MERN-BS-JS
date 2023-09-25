@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js task 4</title>
+</head>
+<body>
+    <!--21BCE7782 Siddhartha Sukhavasi-->
+    <button onclick="showDate()">Show Current Date</button>
+    <p id="date"></p>
+
+<button type="button"
+onclick="document.getElementById('date_time_button').innerHTML = Date()">
+Click and see Date and Time.</button>
+
+<p id="date_time_button"></p>
+
+
+<script>
+     function showDate() {
+            const currentDate = new Date();
+            const dateString = currentDate.toDateString();
+            document.getElementById('date').textContent = dateString;
+        }
+</script>
+</body>
+</html>
